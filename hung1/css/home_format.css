@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+#menu ul {
+	list-style-type: none;
+	text-align: center;
+	background-color: #CCCCCC;
+}
+
+#menu ul li{
+    display: inline-block;
+    color: #f1f1f1;
+    display: inline-table;
+    width: 120px;
+    height: 40x;
+    line-height: 30px;
+    position: relative;
+}
+
+#menu ul li a{
+    display: inline-block;
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+#menu ul li a:hover{
+    background: #f1f1f1;
+    color: #333;
+}
+
+#menu ul li > .sub-menu {
+    display: none;
+}
+
+#menu ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+}
+
+
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+  }
+  
+
+   .jumbotron {
+    margin-bottom: 0;
+  }
+ 
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+
+  .jumbotron{
+    background : white;
+  }
+
+  .jumbotron {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-style: italic;
+}
+footer {
+  background-color: white;
+  padding: 0px;
+}
+.container{
+text-align: center;
+}
+.notication{
+text-align: center;
+font-weight: bold;
+color: red;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.panel-primary>.panel-heading {
+  color: #fff;
+  background-color: #1f568b;
+  border-color: #1f568b;
+  font-weight: bold;
+}
+.panel-primary>.panel-footer {
+font-weight: bold;
+}
+
+#sale{
+color: red;
+}
+
+p {
+  margin: 0 100px 10px;
+}
